@@ -1,5 +1,11 @@
 # Evidence sealed. Gate exposed.
 
+**On 24 November 2026 Immunefi Studio was invite-only and required readiness to buy 300 credits (300 USDC) within 24 hours of invitation.**  
+No invitation was requested. No credits were bought.  
+A fee is not a technical refutation. The paywall is not the proof-checker.
+
+---
+
 ## Why nobody learns the math
 
 “Nobody” is polemic, not a census. The point is that the pipeline rarely rewards deriving the inequality. It rewards routing the report, matching a known-issue label, choosing a severity, and closing the queue. Under those incentives, people learn the interface around the proof instead of the proof. Bias does not require a room full of villains; it can be manufactured by a workflow that trains reviewers to trust familiar categories before unfamiliar evidence.
