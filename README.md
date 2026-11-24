@@ -1,30 +1,47 @@
-# Proof Before Permission
+# Evidence sealed. Gate exposed.
 
-## We have the evidence. This page is not the evidence.
+## The evidence exists; the exploit details stay private.
 
-A private Ethena research package exists. It contains a Lean 4 formalization, three passing Foundry fork tests, and a written finding that records both the demonstrated behavior and the limits of the claim. No code, addresses, parameters, exploit steps, or test files are published here.
+An Ethena research package has been executed locally and is being withheld from this public repository. It contains two Lean formalizations, two Ethena fork tests, one USDtb fork test, and a written finding that records both the demonstrated contract behavior and the limits of the production-attack claim.
 
-The distinction matters: the tests establish contract behavior under their stated setup. They do **not**, by themselves, establish a permissionless production attack path. The finding says so. It also withdraws an earlier impact extrapolation rather than asking the reader to mistake a dramatic number for proof. This is what evidence looks like when it is allowed to contradict its author.
+Observed verification results:
+
+- Lean 4 proof: exit code **0**.
+- Ethena Foundry fork suite: **2 passed, 0 failed**.
+- USDtb Foundry fork test: **1 passed, 0 failed**.
+
+These are the actual local results, not a claim that a bounty accepted the report. The PoCs exercise local forks; no live exploit or permissionless production path is claimed as established. The written finding explicitly records the unresolved API/order path and withdraws an earlier impact extrapolation. Evidence that preserves its own limitations is more useful than a larger number that does not survive scrutiny.
+
+## Public commitments, private contents
+
+The following SHA-256 commitments identify the exact artifacts privately held. They let a later authorized reviewer check that disclosed files match the versions committed to here. **Hashes prove file identity, not correctness**; the proof and tests themselves remain undisclosed.
+
+| Artifact | SHA-256 |
+|---|---|
+| Formal proof A | `85891c7d71b0f04fcdaa7c2badbd65a8cc33d86a8d79f4fb1e7c81e35343a319` |
+| Formal proof B | `9f4c3ede9c6960b0f546d8063c5f808836b30bc242dc5ae76457773f6064ae22` |
+| Ethena fork test | `f0c9da3bddd8854a0a1717f9e1cfd97b35586abff3e1a5b2af251da9dfc69c87` |
+| USDtb fork test | `57433fd571509ed56e00762cf17419d541899bc8c721cf396b870882967cd4bf` |
+| Written finding | `2165901c91f869b4773c6f91591dcef3effb636956fa7de6228d1c5dc91cab1c` |
+
+No source, addresses, parameters, exploit steps, or PoC code are published here.
 
 ## The gate is the argument
 
-On 24 November 2026, the authenticated Immunefi Studio page said **invite-only**. Its invite flow required a researcher to be ready to buy **300 credits (300 USDC) within 24 hours of receiving an invitation**. No invitation was requested; no credits were bought.
+On 24 November 2026, the authenticated Immunefi Studio page displayed **invite-only**. Its invite flow required a researcher to be ready to buy **300 credits (300 USDC) within 24 hours of receiving an invitation**. No invitation was requested; no credits were bought.
 
-That sequence does not assess the evidence. It assesses whether the researcher will make a financial commitment before gaining access to the review. Immunefi may call that product design. The more exact description is that the paywall arrives before the proof-checker.
+That is not a technical review. It is a willingness-to-pay test placed before access to review. A fee is not a rebuttal. An invitation is not triage. A purchase commitment cannot make a theorem more or less true. **The paywall is not the proof-checker; it is the part that prevents the proof-checker from being reached.**
 
-A fee is not a rebuttal. An invitation is not triage. A purchase commitment cannot make a theorem more or less true. When a security-review service puts a commercial gate before examination, it has not answered the claim; it has arranged not to hear it yet. **That is not rigor. It is rigor’s stationery.**
+The institutional comedy is precise: the evidence is machine-checkable, its scope limits are written down, and its hashes are public. The details remain sealed. The next move is not ours to simulate. If the response is a technical refutation, it can be evaluated. If it is procedural silence, that too will be visible—without this page pretending to know what anyone is thinking in private.
 
 ## The author, without prestige
 
-I am dumb, I use drugs, and I spent four years learning mathematics. I am not presenting that as a credential. It is the joke—and the experiment. A person who describes himself that way still managed to make a narrow mathematical claim machine-checkable, test the relevant contracts on local forks, and document where the practical attack argument stops.
+I am dumb, I use drugs, and I spent four years learning mathematics. This is not a credential. It is the setup: a self-described idiot did the work to make a narrow claim machine-checkable, ran the fork tests, and documented where the practical argument stops. If a security platform cannot get as far as reviewing that package without first putting a commercial gate in front of the reviewer, the bottleneck is not obviously the researcher’s IQ.
 
-If the institution’s first response is to put a price and an invitation between that evidence and a reviewer, the embarrassing result is not that I must be secretly brilliant. It is that the process can make a self-described idiot do the epistemic work, then place a tollbooth in front of anyone checking it.
-
-## What this notice does not claim
+## Limits of this notice
 
 - No bounty has accepted the finding; no reward is owed.
 - No live exploitation is claimed.
 - No permissionless production attack path is claimed as established.
-- No technical detail is disclosed, and nobody is invited to test a live system.
-
-The evidence remains private. If the claim is wrong, the useful response is a technical review of the evidence—not a credential check, a severity dropdown, or a payment screen.
+- Nobody is invited to test a live system.
+- The underlying evidence remains private; hashes are commitments, not a substitute for review.
