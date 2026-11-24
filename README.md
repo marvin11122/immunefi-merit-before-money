@@ -1,5 +1,11 @@
 # Evidence sealed. Gate exposed.
 
+## Why nobody learns the math
+
+“Nobody” is polemic, not a census. The point is that the pipeline rarely rewards deriving the inequality. It rewards routing the report, matching a known-issue label, choosing a severity, and closing the queue. Under those incentives, people learn the interface around the proof instead of the proof. Bias does not require a room full of villains; it can be manufactured by a workflow that trains reviewers to trust familiar categories before unfamiliar evidence.
+
+That is how an institution breeds its own biased apes: not necessarily stupid individuals, but smart people performing a role that makes independent thought expensive and procedural reflex cheap. Then a self-described dumb drug user spends four years learning mathematics and brings Lean 4 to a question the pipeline should be able to inspect. The punchline is not that the researcher is a genius. It is that the supposedly unserious person did the formal work while the serious process put a tollbooth in front of anyone checking it.
+
 ## The evidence exists; the exploit details stay private.
 
 An Ethena research package has been executed locally and is being withheld from this public repository. It contains two Lean formalizations, two Ethena fork tests, one USDtb fork test, and a written finding that records both the demonstrated contract behavior and the limits of the production-attack claim.
@@ -48,7 +54,7 @@ The institutional comedy is precise: the evidence is machine-checkable, its scop
 
 ## The author, without prestige
 
-I am dumb, I use drugs, and I spent four years learning mathematics. This is not a credential. It is the setup: a self-described idiot did the work to make a narrow claim machine-checkable, ran the fork tests, and documented where the practical argument stops. If a security platform cannot get as far as reviewing that package without first putting a commercial gate in front of the reviewer, the bottleneck is not obviously the researcher’s IQ.
+I am dumb, I use drugs, and I spent four years learning mathematics. That is not evidence; it is the setup. The evidence is the formal work, the test results, and the public hashes above. The limitations are stated plainly. The technical files remain sealed.
 
 ## Limits of this notice
 
