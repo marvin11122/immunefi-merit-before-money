@@ -12,6 +12,18 @@ Observed verification results:
 
 These are the actual local results, not a claim that a bounty accepted the report. The PoCs exercise local forks; no live exploit or permissionless production path is claimed as established. The written finding explicitly records the unresolved API/order path and withdraws an earlier impact extrapolation. Evidence that preserves its own limitations is more useful than a larger number that does not survive scrutiny.
 
+## Technical statement, sanitized
+
+For natural numbers `n` and positive `d`, integer division satisfies:
+
+```text
+floor(n / d) = 0  iff  n < d
+```
+
+That is not equivalent to `n = 0`: a positive numerator can disappear in the quotient. Consequently, a zero-tolerance check that infers “no deviation” from a truncated zero quotient does not, by that fact alone, prove exact equality. The formal work proves this distinction and the corresponding exact-zero property of a cross-multiplied predicate. It does not prove that every accepted mathematical input is reachable through a production interface.
+
+The local tests exercise the deployed contracts on forks and check the reported behavior under their test setup. The remaining production question is reachability through the documented order/API path; the private finding marks that limitation explicitly. This public synopsis intentionally omits the protocol-specific scaling factor, function and selector names, addresses, order fields, fixtures, role identities, and transaction recipe. It is enough to state the theorem; it is not a reproduction guide.
+
 ## Public commitments, private contents
 
 The following SHA-256 commitments identify the exact artifacts privately held. They let a later authorized reviewer check that disclosed files match the versions committed to here. **Hashes prove file identity, not correctness**; the proof and tests themselves remain undisclosed.
